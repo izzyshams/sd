@@ -13,5 +13,3 @@ Python
     --geopandas
     --Shapely
 Google Maps API Key
-
-
