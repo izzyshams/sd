@@ -3,7 +3,7 @@ Pinnable mapping via social media with spatial analysis.
 
 ## Foundation
 
-[Pinnable Maps](https://pinmaps.net) API
+<a href="https://pinmaps.net" target=_blank>PinMaps API</a>
 
 Python Packages
    
