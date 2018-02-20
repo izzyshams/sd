@@ -4,8 +4,8 @@ Pinnable mapping via social media with spatial analysis.
 ## Foundation
 
 [Pinnable Maps](https://pinmaps.net) API
-Python
-   Packages
+
+Python Packages
    
  * googlemaps
  * geocoder
