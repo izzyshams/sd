@@ -6,8 +6,9 @@ Pinnable mapping via social media with spatial analysis.
 [Pinnable Maps](https://pinmaps.net) API
 Python
    Packages
+   
      * googlemaps
-     *  geocoder
+     * geocoder
      * geojsonio
      * pandas
      * geocoder
