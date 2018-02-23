@@ -186,4 +186,29 @@ Sub-Categories
  * Suspicious
  * Categorization Failed
 
-test commit -mikey
+## Arch
+
+ * Plans are to utilize the [Django Framework](https://www.djangoproject.com/) to structure the web application.
+ * Locality will be calculated using Googles [GeoJSON](https://developers.google.com/maps/documentation/javascript/examples/layer-data-dragndrop) api.
+
+## Design
+
+### Fonts
+
+Possible Font choices: Roboto family, Helvetica Neue, Raleway (header 1/2)
+
+H1:
+H2:
+H3: 
+Mono: 
+
+### Branding
+
+Primary Color
+Primary Accent
+Secondary Color
+Secondary Accent
+
+Custom black
+custom grey
+
