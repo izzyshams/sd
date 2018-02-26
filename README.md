@@ -204,7 +204,7 @@ Mono:
 
 ### Branding
 
-Primary Color
+Primary Color 
 Primary Accent
 Secondary Color
 Secondary Accent
@@ -212,3 +212,5 @@ Secondary Accent
 Custom black
 custom grey
 
+Sup (#d23601)
+Dem (#091b50)
