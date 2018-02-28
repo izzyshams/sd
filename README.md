@@ -219,4 +219,4 @@ Dem (#091b50)
 
  * [Wordpress Attempt](https://supdem.net/wp/suppliers)
 
- * [OneClick Django Hosting](https://www.digitalocean.com/community/tutorials/how-to-use-the-django-one-click-install-image-for-ubuntu-16-04)
+ * [OneClick Django Hosting](https://www.digitalocean.com/community/tutorials/how-to-use-the-django-one-click-install-image-for-ubuntu-16-04). [Linode](https://www.linode.com/?r=7a75ec10d8db237e363b9309f77a11ff005e8826) also offers the option.
