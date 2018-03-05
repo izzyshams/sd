@@ -17,15 +17,45 @@ Possible Python Packages to use
      
      
  Generated Google Maps API Key
+
+## Dependency and S/W information
+
+### Using the Virtualenv
+
+When working on this project please do so from inside of the virtualenv so that it is closed off from the main system.
+
+run `python3 -v` and verify your python version is >= 3.4.x if it is not you will need to intall additional paackages from your distribution repository.
+
+#### Using the venv
+
+This is a small synopsis that outlines the [basic usage](https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html) of the virtual enviornment. DO ALL WORK FROM INSIDE THE ENV.
+
+```bash
+$ python3.5 -m venv supdem  # create the virtualenv
+$ . supdem/bin/activate  # activate it
+
+(supdem)$ python -m pip install requests  # install a package with pip
+...
+(supdem)$ python  # run python from that virtualenv
+Python 3.5.2 (default, Aug 16 2016, 21:50:46) 
+[GCC 5.3.1 20160406 (Red Hat 5.3.1-6)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import requests
+>>> ...
+(env)$ deactivate  # go back to "normal"
+```
+
+For this repo, the venv is named `supdem`.
  
- ## Database
+### Database
  
 MongoDB [Geospatial queries](https://docs.mongodb.com/manual/geospatial-queries/)
 
 Another [Example](https://www.percona.com/blog/2016/04/15/creating-geo-enabled-applications-with-mongodb-geojson-and-mysql/)
 
-## Categorization and prevention of abuse
 
+
+## Categorization and prevention of abuse
 
 Categories (Prohibited/Allowed) : 
 
@@ -224,29 +254,3 @@ Dem (#091b50)
 
 [GeoDjango](https://docs.djangoproject.com/en/2.0/ref/contrib/gis/tutorial/)
 
-## Using the Virtualenv
-
-When working on this project please do so from inside of the virtualenv so that it is closed off from the main system.
-
-run `python3 -v` and verify your python version is >= 3.4.x if it is not you will need to intall additional paackages from your distribution repository.
-
-#### Using the venv
-
-This is a small synopsis that outlines the [basic usage](https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html) of the virtual enviornment. DO ALL WORK FROM INSIDE THE ENV.
-
-```bash
-$ python3.5 -m venv supdem  # create the virtualenv
-$ . supdem/bin/activate  # activate it
-
-(supdem)$ python -m pip install requests  # install a package with pip
-...
-(supdem)$ python  # run python from that virtualenv
-Python 3.5.2 (default, Aug 16 2016, 21:50:46) 
-[GCC 5.3.1 20160406 (Red Hat 5.3.1-6)] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> import requests
->>> ...
-(env)$ deactivate  # go back to "normal"
-```
-
-For this repo, the venv is named supdem
