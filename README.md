@@ -51,12 +51,18 @@ For this repo, the venv is named `supdem`.
 
 We are using `Django 2.0.2` to build this project. Get caught up [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment) before making edits to ensure you work working with the proper versions.
 
+Because we are in the venv `python` == `python3`. To start up the test websever run:
+```bash
+$ python manage.py runserver
+```
+and begin working.
+
+
 ### Database
  
 MongoDB [Geospatial queries](https://docs.mongodb.com/manual/geospatial-queries/)
 
 Another [Example](https://www.percona.com/blog/2016/04/15/creating-geo-enabled-applications-with-mongodb-geojson-and-mysql/)
-
 
 
 ## Categorization and prevention of abuse
