@@ -20,7 +20,7 @@ Possible Python Packages to use
 
 ## Dependency and S/W information
 
-### Using the Virtualenv
+### Python 3 Virtualenv using python 3.6
 
 When working on this project please do so from inside of the virtualenv so that it is closed off from the main system.
 
@@ -47,6 +47,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 For this repo, the venv is named `supdem`.
  
+### Django Framework
+
+We are using `Django 2.0.2` to build this project. Get caught up [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment) before making edits to ensure you work working with the proper versions.
+
 ### Database
  
 MongoDB [Geospatial queries](https://docs.mongodb.com/manual/geospatial-queries/)
