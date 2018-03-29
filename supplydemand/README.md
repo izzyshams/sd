@@ -21,7 +21,7 @@ This will spit out two files into `~/.ssh/`:
  * `id_rsa`
  * `id_rsa.pub`
 
-You are authenticated on the server by comparing with your public key (`id_rsa.pub`) and the exact contents of your public key must be listed as its own line on your server account under `~/.ssh/known_keys`.
+You are authenticated on the server by comparing with your public key (`id_rsa.pub`) and the exact contents of your public key must be listed as its own line on your server account under `~/.ssh/authorized_keys`.
 
 ##### Copy your public key to your account on a remote host
 
