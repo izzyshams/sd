@@ -8,6 +8,13 @@ This directory contains the working code for the Django powered supdem website.
 
 ## Notes
 
+### Rest APIs
+
+Representational State Transfer (Rest) apis are used for response handling of of the server-side portion of an application. Many Google api's are rest apis.
+
+ * Build rest api on [Node.js](https://medium.com/of-all-things-tech-progress/5-steps-to-build-a-rest-api-in-node-js-with-mongodb-e1f2113a39bd)
+
+
 ### Working with SSH keys
 
 #### Neccesities
