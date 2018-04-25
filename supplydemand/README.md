@@ -5,6 +5,10 @@ This directory contains the working code for the Django powered supdem website.
 ## Additional Libs
 
 * Bootstrap Edge template: http://django-edge.readthedocs.io/en/latest/
+* https://ubilabs.github.io/geocomplete/
+  * Can be used with Gmaps overlays: https://developers.google.com/maps/documentation/javascript/overlays?csw=1
+* http://workshops.boundlessgeo.com/tutorial-autocomplete/
+
 
 ## Notes
 
