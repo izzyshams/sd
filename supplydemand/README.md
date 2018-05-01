@@ -8,7 +8,7 @@ This directory contains the working code for the Django powered supdem website.
 * https://ubilabs.github.io/geocomplete/
   * Can be used with Gmaps overlays: https://developers.google.com/maps/documentation/javascript/overlays?csw=1
 * http://workshops.boundlessgeo.com/tutorial-autocomplete/
-
+* https://stackoverflow.com/questions/31861822/google-maps-how-to-show-city-or-an-area-outline
 
 ## Notes
 
