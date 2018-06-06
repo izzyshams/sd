@@ -1,13 +1,14 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <title>Supdem Wireframe</title>
 
+<script src="https://nackloose.com/reset.css"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
 
 
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
@@ -59,63 +60,22 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-sm">
-      Sidebar
+    <div class="sidenav">
+      <li><a href="#">Map</a></li>
+      <li><a href="#">My Stats</a></li>
+      <li><a href="#">My Markets</a></li>
+      <li><a href="#">My Locations</a></li>
     </div>
-    <!--<div class="col-md">
-      Map canvas
-    </div>-->
-<div class="col-lg" id="map" style="width:1000px;height:500px;"></div>
-<script>
-// This example requires the Drawing library. Include the libraries=drawing
-// parameter when you first load the API. For example:
-// <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=drawing">
 
-function initMap() {
-var map = new google.maps.Map(document.getElementById('map'), {
-center: {lat: 40.781432, lng: -74.081346},
-zoom: 8
-});
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALWZHXbir57usihpJpjMS_E73hOVxJ-v4&libraries=drawing&callback=initMap" async defer></script>
+  <div class="col-lg" id="map" style="width:1000px;height:500px;"></div>
 
-var drawingManager = new google.maps.drawing.DrawingManager({
-drawingMode: google.maps.drawing.OverlayType.MARKER,
-drawingControl: true,
-drawingControlOptions: {
-position: google.maps.ControlPosition.TOP_CENTER,
-drawingModes: ['marker', 'circle', 'polygon', 'polyline', 'rectangle']
-},
-markerOptions: {icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'},
-circleOptions: {
-fillColor: '#ffff00',
-fillOpacity: 1,
-strokeWeight: 5,
-clickable: false,
-editable: true,
-zIndex: 1
-}
-});
-drawingManager.setMap(map);
-
-google.maps.event.addListener(drawingManager, 'circlecomplete', function (circle) {
-var radius = circle.getRadius();
-alert(radius);
-});
-google.maps.event.addListener(drawingManager, 'polylinecomplete', function (polyline) {
-alert(polyline.getPath().getArray().toString());
-});
-google.maps.event.addListener(drawingManager, 'polygon', function (polygon) {
-alert(polygon.getPath().getArray().toString());
-});
-
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALWZHXbir57usihpJpjMS_E73hOVxJ-v4&libraries=drawing&callback=initMap"
-async defer></script>
-
-    <div class="col-md">
-      footer
-    </div>
   </div>
 </div>
+
+<footer class="page-footer">
+      footer
+</footer>
+<script type="text/javascript" src="mapsWidget.js"></script>
 </body>
 </html>
