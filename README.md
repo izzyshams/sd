@@ -264,3 +264,5 @@ Dem (#091b50)
 
 [GeoDjango](https://docs.djangoproject.com/en/2.0/ref/contrib/gis/tutorial/)
 
+
+New design is coming along. Please vote: https://99designs.com/contests/poll/d03f8cc2a1
