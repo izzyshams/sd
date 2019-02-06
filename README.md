@@ -64,6 +64,11 @@ MongoDB [Geospatial queries](https://docs.mongodb.com/manual/geospatial-queries/
 
 Another [Example](https://www.percona.com/blog/2016/04/15/creating-geo-enabled-applications-with-mongodb-geojson-and-mysql/)
 
+## Google Categories:
+https://www.solidstratagems.com/google-my-business-categories/
+
+## Paypal Categories:
+https://developer.paypal.com/docs/classic/adaptive-accounts/integration-guide/ACBusinessCategories/
 
 ## Categorization and prevention of abuse
 
